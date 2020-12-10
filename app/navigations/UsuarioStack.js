@@ -1,16 +1,16 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import Pagos from "../screens/Pago/Pago";
+import Usuarios from "../screens/Usuario/Usuario";
 
 const Stack = createStackNavigator();
 
-export default function PagoStack() {
+export default function UsuarioStack() {
   return (
     <Stack.Navigator>
       <Stack.Screen
-        name="pagos"
-        component={Pagos}
-        options={{ title: "Pagos" }}
+        name="usuarios"
+        component={Usuarios}
+        options={{ title: "Usuarios" }}
       />
     </Stack.Navigator>
   );
